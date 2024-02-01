@@ -15,5 +15,22 @@ body {
   height: 100vh;
   background-image: url("images/vaporbackground.jpeg");
   background-size: cover;
-  background-position: 40%;
+  background-position-x: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: rgba(50, 48, 48);
+}
+
+.nav-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
