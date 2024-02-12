@@ -23,4 +23,9 @@ body {
     "vp1 vp2"
     "vp3 vp4";
   gap: 20px;
+  column-gap: 20px;
+}
+
+.bust {
+  overflow: hidden;
 }
