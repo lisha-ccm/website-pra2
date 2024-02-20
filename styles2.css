@@ -7,21 +7,23 @@ body {
 }
 
 .page-container {
-  display: flex;
+  display: grid;
   height: 100vh;
   align-items: center;
+  justify-content: center;
 }
 
 .grid-container {
   margin: 2rem;
   margin-top: auto 10px;
-  display: flex;
+  display: grid;
 
-  justify-content: center;
+  justify-content: c;
   align-items: center;
   padding: 1rem;
   gap: 100px;
   border: 1px solid hsl(70, 10%, 70%);
+  box-shadow: 0 0 10px 0 hsl(147, 95%, 45%);
 }
 
 /* .grid-container{
@@ -36,4 +38,5 @@ body {
 
 img {
   width: 500px;
+  border: 1px solid hsl(0, 0%, 100%);
 }
